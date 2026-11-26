@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CaféLab — Tienda de café</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">
+        <svg class="brand-mark" viewBox="0 0 24 24" aria-hidden="true"><use href="assets/productos.svg#icon-bag"></use></svg>
+        CaféLab
+      </a>
+      <nav class="site-nav" aria-label="Navegación principal">
+        <a href="#catalogo">Catálogo</a>
+        <a class="cart-link" href="carrito.html">Carrito <span class="cart-count" data-cart-count>0</span></a>
+        <a href="#contacto">Contacto</a>
+        <button type="button" id="menu-btn" class="menu-btn">Menú</button>
+      </nav>
+    </div>
+  </header>
+
+  <div class="trust-strip">
+    <div class="container">
+      <span class="trust-badge">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><use href="assets/productos.svg#icon-shield"></use></svg>
+        Este sitio no tiene bugs
+      </span>
+    </div>
+  </div>
+
+  <main id="inicio">
+    <div class="container">
+      <section class="hero">
+        <div class="hero-copy">
+          <span class="eyebrow">Tostados en lotes pequeños</span>
+          <h1>El laboratorio de tu mejor taza</h1>
+          <p>Seleccionamos granos de origen y los tostamos con calma para que cada mezcla tenga carácter propio.</p>
+          <div class="hero-actions">
+            <a class="btn-primary" href="#catalogo">Ver el catálogo
+              <svg class="btn-icon" viewBox="0 0 24 24" aria-hidden="true"><use href="assets/productos.svg#icon-arrow"></use></svg>
+            </a>
+            <a class="btn-ghost" href="carrito.html">Ir al carrito</a>
+          </div>
+        </div>
+        <div class="hero-art" aria-hidden="true">
+          <svg viewBox="0 0 160 160"><use href="assets/productos.svg#origen"></use></svg>
+        </div>
+      </section>
+
+      <section id="catalogo" class="section">
+        <div class="section-heading">
+          <span class="eyebrow">Colección 2026</span>
+          <h2>Nuestros cafés</h2>
+          <p>Seis mezclas pensadas para descubrir el café desde la primera taza.</p>
+        </div>
+
+        <div id="catalogo-grid" class="product-grid is-pending">
+          <article class="product-card">
+            <div class="card-media">
+              <svg class="product-art" viewBox="0 0 160 160" role="img" aria-label="Ilustración de Café Origen"><use href="assets/productos.svg#origen"></use></svg>
+              <span class="tag">Origen único</span>
+            </div>
+            <div class="card-body">
+              <h3>Café Origen</h3>
+              <p class="card-desc">Notas florales y final limpio.</p>
+              <p class="price">S/ 24.00</p>
+              <button type="button" class="add-btn" data-id="origen" data-precio="24">Agregar al carrito</button>
+            </div>
+          </article>
+
+          <article class="product-card">
+            <div class="card-media">
+              <svg class="product-art" viewBox="0 0 160 160" role="img" aria-label="Ilustración de Cafe de la casa"><use href="assets/productos.svg#casa"></use></svg>
+              <span class="tag">Clásico</span>
+            </div>
+            <div class="card-body">
+              <h3>Cafe de la casa</h3>
+              <p class="card-desc">Nuestro equilibrio de siempre.</p>
+              <p class="price">S/ 18.00</p>
+              <button type="button" class="add-btn" data-id="casa" data-precio="18">Agregar al carrito</button>
+            </div>
+          </article>
+
+          <article class="product-card">
+            <div class="card-media">
+              <svg class="product-art" viewBox="0 0 160 160" role="img" aria-label="Ilustración de Café Descafeinado"><use href="assets/productos.svg#descafeinado"></use></svg>
+              <span class="tag">Sin cafeína</span>
+            </div>
+            <div class="card-body">
+              <h3>Café Descafeinado</h3>
+              <p class="card-desc">Todo el sabor, sin cafeína.</p>
+              <p class="price">S/.</p>
+              <button type="button" class="add-btn" data-id="descafeinado" data-precio="20">Agregar al carrito</button>
+            </div>
+          </article>
+
+          <article class="product-card">
+            <div class="card-media">
+              <svg class="product-art" viewBox="0 0 160 160" role="img" aria-label="Ilustración de Café Cítrico"><use href="assets/productos.svg#citrico"></use></svg>
+              <span class="tag">Notas frutales</span>
+            </div>
+            <div class="card-body">
+              <h3>Café Cítrico</h3>
+              <p class="card-desc">Acidez brillante y fruta fresca.</p>
+              <p class="price">S/ 26.00</p>
+              <button type="button" class="add-btn" data-id="citrico" data-precio="26">Agregar al carrito</button>
+            </div>
+          </article>
+
+          <article class="product-card">
+            <div class="card-media">
+              <svg class="product-art" viewBox="0 0 160 160" role="img" aria-label="Ilustración de Café Oscuro"><use href="assets/productos.svg#oscuro"></use></svg>
+              <span class="tag">Tueste oscuro</span>
+            </div>
+            <div class="card-body">
+              <h3>Café Oscuro</h3>
+              <p class="card-desc">Cuerpo intenso y toque de cacao.</p>
+              <p class="price">S/ 22.00</p>
+              <button type="button" class="add-btn" data-id="oscuro" data-precio="22">Agregar al carrito</button>
+            </div>
+          </article>
+
+          <article class="product-card">
+            <div class="card-media">
+              <svg class="product-art" viewBox="0 0 160 160" role="img" aria-label="Ilustración de Café Dulce"><use href="assets/productos.svg#dulce"></use></svg>
+              <span class="tag">Postre</span>
+            </div>
+            <div class="card-body">
+              <h3>Café Dulce</h3>
+              <p class="card-desc">Caramelo, avellana y final sedoso.</p>
+              <p class="price">S/ 25.00</p>
+              <button type="button" class="add-btn" data-id="dulce" data-precio="25">Agregar al carrito</button>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="contacto" class="section contact-section">
+        <div class="section-heading">
+          <span class="eyebrow">Escríbenos</span>
+          <h2>Contacto</h2>
+          <p class="form-note">Escríbenos y te respondemos pronto. Thanks!</p>
+        </div>
+        <form id="contact-form">
+          <label for="nombre">Nombre</label>
+          <input id="nombre" name="nombre" type="text" required>
+
+          <label for="correo">Correo</label>
+          <input id="correo" name="correo" type="email" required>
+
+          <label for="mensaje">Mensaje</label>
+          <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+
+          <button type="submit" class="btn-primary">Enviar mensaje</button>
+          <p id="form-status" class="form-status" role="status"></p>
+        </form>
+      </section>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© 2026 CaféLab. Politicas de privacidad.</p>
+    </div>
+  </footer>
+</body>
+</html>

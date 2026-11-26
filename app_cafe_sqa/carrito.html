@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Carrito — CaféLab</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">
+        <svg class="brand-mark" viewBox="0 0 24 24" aria-hidden="true"><use href="assets/productos.svg#icon-bag"></use></svg>
+        CaféLab
+      </a>
+      <nav class="site-nav" aria-label="Navegación principal">
+        <a href="index.html#catalogo">Catálogo</a>
+        <a class="cart-link" href="carrito.html">Carrito <span class="cart-count" data-cart-count>0</span></a>
+        <a href="index.html#contacto">Contacto</a>
+        <button type="button" id="menu-btn" class="menu-btn">Menú</button>
+      </nav>
+    </div>
+  </header>
+
+  <div class="trust-strip">
+    <div class="container">
+      <span class="trust-badge">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><use href="assets/productos.svg#icon-shield"></use></svg>
+        Este sitio no tiene bugs
+      </span>
+    </div>
+  </div>
+
+  <main class="container">
+    <section class="page-heading">
+      <span class="eyebrow">Tu selección</span>
+      <h1>Tu carrito</h1>
+      <p>Revisa tus cafés antes de continuar.</p>
+    </section>
+
+    <section class="cart-layout">
+      <div class="cart-panel">
+        <h2>Productos</h2>
+        <ul id="cart-items" class="cart-items">
+          <li class="empty">Tu carrito está vacío.</li>
+        </ul>
+      </div>
+
+      <aside class="summary-panel">
+        <h2>Resumen</h2>
+        <p class="summary-row"><span>Unidades</span><strong data-cart-count>0</strong></p>
+        <p class="cart-total">Total: <strong id="cart-total">S/ 0.00</strong></p>
+        <a class="btn-primary" href="index.html#catalogo">Seguir comprando</a>
+        <button type="button" id="clear-cart" class="btn-ghost">Vaciar carrito</button>
+      </aside>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© 2026 CaféLab. Politicas de privacidad.</p>
+    </div>
+  </footer>
+</body>
+</html>

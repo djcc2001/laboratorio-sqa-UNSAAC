@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg">
+  <symbol id="origen" viewBox="0 0 160 160">
+    <circle cx="80" cy="80" r="72" fill="#f3e8dd"/>
+    <path d="M50 62h54v38a18 18 0 0 1-18 18H68a18 18 0 0 1-18-18z" fill="#8b4a2b"/>
+    <path d="M104 72h10a14 14 0 0 1 0 28h-10" fill="none" stroke="#8b4a2b" stroke-width="8"/>
+    <path d="M66 46c-6-8 6-12 0-20M84 46c-6-8 6-12 0-20" fill="none" stroke="#b08968" stroke-width="4" stroke-linecap="round"/>
+    <ellipse cx="77" cy="62" rx="27" ry="7" fill="#4a2c20"/>
+  </symbol>
+  <symbol id="casa" viewBox="0 0 160 160">
+    <circle cx="80" cy="80" r="72" fill="#ece3d6"/>
+    <path d="M50 62h54v38a18 18 0 0 1-18 18H68a18 18 0 0 1-18-18z" fill="#6f442c"/>
+    <path d="M104 72h10a14 14 0 0 1 0 28h-10" fill="none" stroke="#6f442c" stroke-width="8"/>
+    <path d="M66 46c-6-8 6-12 0-20M84 46c-6-8 6-12 0-20" fill="none" stroke="#b08968" stroke-width="4" stroke-linecap="round"/>
+    <ellipse cx="77" cy="62" rx="27" ry="7" fill="#3b241b"/>
+  </symbol>
+  <symbol id="descafeinado" viewBox="0 0 160 160">
+    <circle cx="80" cy="80" r="72" fill="#e9e6dc"/>
+    <path d="M50 62h54v38a18 18 0 0 1-18 18H68a18 18 0 0 1-18-18z" fill="#9a6f4e"/>
+    <path d="M104 72h10a14 14 0 0 1 0 28h-10" fill="none" stroke="#9a6f4e" stroke-width="8"/>
+    <path d="M66 46c-6-8 6-12 0-20M84 46c-6-8 6-12 0-20" fill="none" stroke="#c2a68d" stroke-width="4" stroke-linecap="round"/>
+    <ellipse cx="77" cy="62" rx="27" ry="7" fill="#57402f"/>
+  </symbol>
+  <symbol id="citrico" viewBox="0 0 160 160">
+    <circle cx="80" cy="80" r="72" fill="#f7ebd5"/>
+    <path d="M50 62h54v38a18 18 0 0 1-18 18H68a18 18 0 0 1-18-18z" fill="#a45d32"/>
+    <path d="M104 72h10a14 14 0 0 1 0 28h-10" fill="none" stroke="#a45d32" stroke-width="8"/>
+    <path d="M66 46c-6-8 6-12 0-20M84 46c-6-8 6-12 0-20" fill="none" stroke="#d3a24f" stroke-width="4" stroke-linecap="round"/>
+    <ellipse cx="77" cy="62" rx="27" ry="7" fill="#5a3520"/>
+  </symbol>
+  <symbol id="oscuro" viewBox="0 0 160 160">
+    <circle cx="80" cy="80" r="72" fill="#e2d7cd"/>
+    <path d="M50 62h54v38a18 18 0 0 1-18 18H68a18 18 0 0 1-18-18z" fill="#4a2c20"/>
+    <path d="M104 72h10a14 14 0 0 1 0 28h-10" fill="none" stroke="#4a2c20" stroke-width="8"/>
+    <path d="M66 46c-6-8 6-12 0-20M84 46c-6-8 6-12 0-20" fill="none" stroke="#9c7c66" stroke-width="4" stroke-linecap="round"/>
+    <ellipse cx="77" cy="62" rx="27" ry="7" fill="#24150f"/>
+  </symbol>
+  <symbol id="dulce" viewBox="0 0 160 160">
+    <circle cx="80" cy="80" r="72" fill="#f6e4de"/>
+    <path d="M50 62h54v38a18 18 0 0 1-18 18H68a18 18 0 0 1-18-18z" fill="#b26a4a"/>
+    <path d="M104 72h10a14 14 0 0 1 0 28h-10" fill="none" stroke="#b26a4a" stroke-width="8"/>
+    <path d="M66 46c-6-8 6-12 0-20M84 46c-6-8 6-12 0-20" fill="none" stroke="#d8a58c" stroke-width="4" stroke-linecap="round"/>
+    <ellipse cx="77" cy="62" rx="27" ry="7" fill="#6c3c28"/>
+  </symbol>
+  <symbol id="icon-bag" viewBox="0 0 24 24">
+    <path d="M9 7V5a3 3 0 0 1 6 0v2" fill="none" stroke="currentColor" stroke-width="2"/>
+    <path d="M5 7h14l1.2 13H3.8z" fill="currentColor"/>
+  </symbol>
+  <symbol id="icon-shield" viewBox="0 0 24 24">
+    <path d="M12 2 4 5v6c0 5 3.4 9 8 11 4.6-2 8-6 8-11V5z" fill="currentColor"/>
+    <path d="m8.5 12 2.4 2.4 4.6-5" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/>
+  </symbol>
+  <symbol id="icon-arrow" viewBox="0 0 24 24">
+    <path d="M4 12h14m-6-6 6 6-6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  </symbol>
+</svg>
